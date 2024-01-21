@@ -74,3 +74,4 @@
         particles[i].update();
         particles[i].draw();
         if (particles[i].length <= 0 || particles[i].opacity <= 0) {
+          particles.splice(i, 1);

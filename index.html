@@ -52,3 +52,4 @@
         ctx.lineWidth = this.width;
         ctx.beginPath();
         ctx.moveTo(this.x, this.y);
+        ctx.lineTo(this.x + Math.cos(this.angle) * this.length, this.y + Math.sin(this.angle) * this.length);
